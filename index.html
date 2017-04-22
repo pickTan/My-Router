@@ -6,20 +6,19 @@
     <script src="src/Router.js"  ></script>
     <script>
         (function(){
-            var routes = {
+            new Router({
                 '/':'white',
                 '/blue':'blue',
                 '/green':'green'
-            };
-            new Router(routes);
+            });
         })();
     </script>
 </head>
 <body>
 <ul>
-    <li><a href="#/">turn white</a></li>
-    <li><a href="#/blue">turn blue</a></li>
-    <li><a href="#/green">turn green</a></li>
+    <li><a href="#/">white</a></li>
+    <li><a href="#/blue">blue</a></li>
+    <li><a href="#/green">green</a></li>
 </ul>
 
 </body>
